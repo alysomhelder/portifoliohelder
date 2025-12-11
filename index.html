@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Alysom Moura - Front‑End Developer" />
+  <title>Alysom Moura - Front‑End Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="glow-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <img src="img/me.png" class="logo-img" alt="Alyson Moura">
+        
+        <div class="brand-text">
+          <h1>Alysom <span>Moura</span></h1>
+          <small>Front‑End Developer</small>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Principal">
+        <button id="menu-toggle" aria-label="Abrir menu" class="icon-btn"><i class='bx bx-menu'></i></button>
+        <a href="#projects">Projetos</a>
+        <a href="#about">Sobre</a>
+        <a class="cta-ghost" href="https://wa.me/5585998236651" target="_blank" rel="noopener"><i class='bx bxl-whatsapp'></i> WhatsApp</a>
+        <button id="theme-toggle" aria-label="Trocar tema" class="icon-btn"><i class='bx bx-moon'></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div class="hero-left reveal-hidden">
+          <div class="hero-badge">🚀 Disponível — Contrate</div>
+          <h2 class="hero-title">Eu crio <span class="neon">interfaces neon</span>, performáticas e com UX de alto nível.</h2>
+          <p class="hero-sub">Desenvolvedor Front-End iniciante, criando interfaces modernas e explorando o desenvolvimento de apps com Capacitor.</p>
+
+          <ul class="hero-stats">
+            <li><strong>4+</strong><span>Projetos</span></li>
+            <li><strong>4</strong><span>Meses Exp</span></li>
+            <li><strong>100%</strong><span>Dedicado</span></li>
+          </ul>
+
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#projects">Ver Projetos</a>
+            <a class="btn btn-ghost" href="https://wa.me/5585998236651" target="_blank">Falar Agora</a>
+          </div>
+        </div>
+
+        <aside class="hero-right card glass reveal-hidden" style="transition-delay: 0.2s">
+          <div class="preview-head">
+            <div>
+              <div class="preview-title">FaMobile</div>
+              <div class="preview-meta">Web App • Performance</div>
+            </div>
+            <div class="preview-actions">
+              <a class="mini" href="https://famobile.vercel.app/" target="_blank">Demo</a>
+              <a class="mini" href="https://github.com/alysomhelder/famobile" target="_blank">Código</a>
+            </div>
+          </div>
+
+          <div class="phone-mock" id="phone-mock">
+            <img src="img/projects/famobile.png" alt="Preview FaMobile" onerror="this.style.opacity=0.05;" />
+            <div class="phone-label">Preview App</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2 class="section-title reveal-hidden">Projetos em Destaque</h2>
+        <p class="section-sub reveal-hidden">Soluções reais com resultados mensuráveis.</p>
+
+        <div class="projects-grid" id="projects-grid">
+          <article class="project-card glass reveal-hidden">
+            <div class="badge">⭐ Destaque</div>
+            <h3>FaMobile</h3>
+            <p>Aplicação web otimizada. Transformei processos manuais em uma experiência digital fluida e com integração mobile via Capacitor.</p>
+            <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Capacitor</span></div>
+            <div class="project-links">
+              <a class="link-btn" href="https://famobile.vercel.app/" target="_blank"><i class='bx bx-play-circle'></i> Demo</a>
+              <a class="link-btn" href="https://github.com/alysomhelder/famobile" target="_blank"><i class='bx bxl-github'></i> Código</a>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal-hidden" style="transition-delay: 0.1s">
+            <h3>Sustenride</h3>
+            <p>Site moderno com foco em sustentabilidade, design e performance, seguindo as melhores práticas de SEO.</p>
+            <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a class="link-btn" href="https://sustenride.netlify.app/" target="_blank"><i class='bx bx-link-external'></i> Demo</a>
+              <a class="link-btn" href="https://github.com/alysomhelder/SustenRide" target="_blank"><i class='bx bxl-github'></i> Código</a>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal-hidden" style="transition-delay: 0.2s">
+            <h3>Geolocalização UNIFAMETRO</h3>
+            <p>Sistema de navegação interativo para campus universitário com vídeos orientativos e marcações dinâmicas.</p>
+            <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a class="link-btn" href="https://project-geoloc.vercel.app/" target="_blank"><i class='bx bx-link-external'></i> Demo</a>
+              <a class="link-btn" href="https://github.com/alysomhelder/project-geoloc" target="_blank"><i class='bx bxl-github'></i> Código</a>
+            </div>
+          </article>
+          
+          <article class="project-card glass reveal-hidden" style="transition-delay: 0.3s">
+            <h3>Calculadora 4 bits</h3>
+            <p>Projeto dedicado a exercícios e demonstrações de lógica matemática em um formato interativo e didático.</p>
+            <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a class="link-btn" href="https://logicadematematica.vercel.app/" target="_blank"><i class='bx bx-link-external'></i> Demo</a>
+              <a class="link-btn" href="https://github.com/alysomhelder/logicadematematica" target="_blank"><i class='bx bxl-github'></i> Código</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap about-grid">
+        <div class="reveal-hidden">
+          <h2 class="section-title" style="text-align: left;">Minha Stack</h2>
+          <p class="about-text">Com experiência sólida em desenvolvimento front-end, crio interfaces modernas, responsivas e altamente funcionais. Tecnologias: HTML5, CSS3, JavaScript (ES6+), Node.js, Git.</p>
+
+          <div class="skill-list">
+            <div class="skill"><i class='bx bxl-html5'></i> HTML5</div>
+            <div class="skill"><i class='bx bxl-css3'></i> CSS3</div>
+            <div class="skill"><i class='bx bxl-javascript'></i> JavaScript</div>
+            <div class="skill"><i class='bx bxl-nodejs'></i> Node.js</div>
+          </div>
+        </div>
+
+        <aside class="card glass contact-card reveal-hidden" style="transition-delay: 0.1s">
+          <div style="font-weight:800; font-size: 1.2rem; margin-bottom: 5px;">Contato rápido</div>
+          <div class="muted">Fortaleza, CE • Disponível remoto</div>
+          
+          <div class="contact-item">
+            <i class='bx bx-envelope'></i> 
+            <div>
+              <strong>Email</strong>
+              <div style="font-size: 0.9rem; color: var(--muted)">alysomhelder1@gmail.com</div>
+            </div>
+          </div>
+
+          <div style="margin-top:20px;display:flex;gap:8px">
+            <a class="btn btn-ghost" href="https://mail.google.com/mail/?view=cm&fs=1&to=alysomhelder1@gmail.com" target="_blank">
+              <i class='bx bx-envelope'></i> E-mail
+            </a>
+            <a class="btn btn-ghost" href="https://github.com/alysomhelder" target="_blank">GitHub</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="wrap">
+        <h2 class="section-title reveal-hidden">Vamos Trabalhar Juntos?</h2>
+        <p class="section-sub reveal-hidden">Me mande um brief curto que eu respondo com orçamento e prazos.</p>
+
+        <form id="contact-form" class="contact-form glass reveal-hidden" aria-label="Formulário de contato">
+          <input name="name" placeholder="Seu nome*" required>
+          <input name="email" type="email" placeholder="Seu melhor email*" required>
+          <input name="subject" placeholder="Projeto (ex: site, dashboard)">
+          <textarea name="message" rows="5" placeholder="Breve descrição do projeto" required></textarea>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary" style="width:100%">Enviar mensagem</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div>© 2025 Alyson Moura — Transformando ideias em experiências digitais</div>
+      <div class="socials">
+        <a href="https://github.com/alysomhelder" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://wa.me/5585998236651" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+        <a href="https://www.linkedin.com/in/alysom-moura-330bb3335" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      </div>
+    </div>
+  </footer>
+  
+  <aside id="mobile-menu" class="mobile-menu" aria-hidden="true">
+    <button id="close-menu" aria-label="Fechar menu" class="icon-btn close-btn"><i class='bx bx-x'></i></button>
+    <nav class="mobile-nav">
+        <a href="#projects">Projetos</a>
+        <a href="#about">Sobre</a>
+        <a class="cta-ghost" href="https://wa.me/5585998236651" target="_blank" rel="noopener"><i class='bx bxl-whatsapp'></i> WhatsApp</a>
+    </nav>
+  </aside>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  
+<script src="js/script.js"></script>
+</body>
+</html>
